@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+   
+   <param name="collision_avoidance" value="false" />
+   
+   <node name="coordinate_controller" pkg="a3_code" type="case1.py"  />
+
+   <node name="keyboard_remap_node" pkg="a3_code" type="case3_v2.py"  />
+
+</launch>
